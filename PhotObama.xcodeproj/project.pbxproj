@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		43145A541E8B1E1C009D5260 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43145A531E8B1E1C009D5260 /* AppDelegate.swift */; };
-		43145A561E8B1E1C009D5260 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43145A551E8B1E1C009D5260 /* ViewController.swift */; };
 		43145A591E8B1E1C009D5260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43145A571E8B1E1C009D5260 /* Main.storyboard */; };
 		43145A5B1E8B1E1C009D5260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43145A5A1E8B1E1C009D5260 /* Assets.xcassets */; };
 		43145A5E1E8B1E1C009D5260 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43145A5C1E8B1E1C009D5260 /* LaunchScreen.storyboard */; };
 		43145A691E8B1E1C009D5260 /* PhotObamaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43145A681E8B1E1C009D5260 /* PhotObamaTests.swift */; };
 		43145A741E8B1E1C009D5260 /* PhotObamaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43145A731E8B1E1C009D5260 /* PhotObamaUITests.swift */; };
+		43145A821E8B1E54009D5260 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43145A811E8B1E54009D5260 /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		43145A501E8B1E1C009D5260 /* PhotObama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotObama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43145A531E8B1E1C009D5260 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43145A551E8B1E1C009D5260 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43145A581E8B1E1C009D5260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43145A5A1E8B1E1C009D5260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43145A5D1E8B1E1C009D5260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		43145A6F1E8B1E1C009D5260 /* PhotObamaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotObamaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43145A731E8B1E1C009D5260 /* PhotObamaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotObamaUITests.swift; sourceTree = "<group>"; };
 		43145A751E8B1E1C009D5260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43145A811E8B1E54009D5260 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				43145A531E8B1E1C009D5260 /* AppDelegate.swift */,
-				43145A551E8B1E1C009D5260 /* ViewController.swift */,
+				43145A811E8B1E54009D5260 /* PhotosViewController.swift */,
 				43145A571E8B1E1C009D5260 /* Main.storyboard */,
 				43145A5A1E8B1E1C009D5260 /* Assets.xcassets */,
 				43145A5C1E8B1E1C009D5260 /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43145A561E8B1E1C009D5260 /* ViewController.swift in Sources */,
+				43145A821E8B1E54009D5260 /* PhotosViewController.swift in Sources */,
 				43145A541E8B1E1C009D5260 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
