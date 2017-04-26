@@ -14,6 +14,15 @@
 		43145A691E8B1E1C009D5260 /* PhotObamaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43145A681E8B1E1C009D5260 /* PhotObamaTests.swift */; };
 		43145A741E8B1E1C009D5260 /* PhotObamaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43145A731E8B1E1C009D5260 /* PhotObamaUITests.swift */; };
 		43145A821E8B1E54009D5260 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43145A811E8B1E54009D5260 /* PhotosViewController.swift */; };
+		43145A841E8B2293009D5260 /* PhotoAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43145A831E8B2293009D5260 /* PhotoAPIs.swift */; };
+		43145A861E8B2C17009D5260 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43145A851E8B2C17009D5260 /* PhotoStore.swift */; };
+		43239AA91EAEB6A000312ACA /* Photo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43239AA71EAEB6A000312ACA /* Photo+CoreDataClass.swift */; };
+		43239AAA1EAEB6A000312ACA /* Photo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43239AA81EAEB6A000312ACA /* Photo+CoreDataProperties.swift */; };
+		4334D7BE1EAEA788000DDEC6 /* PhotObama.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4334D7BC1EAEA788000DDEC6 /* PhotObama.xcdatamodeld */; };
+		4346E89F1EA54A0D008ED642 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4346E89E1EA54A0D008ED642 /* ImageStore.swift */; };
+		4346E8A11EA6BF7E008ED642 /* PhotoInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4346E8A01EA6BF7E008ED642 /* PhotoInfoViewController.swift */; };
+		436B836E1E9C25BC00DD9E86 /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B836D1E9C25BC00DD9E86 /* PhotoDataSource.swift */; };
+		436B83701E9C298E00DD9E86 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B836F1E9C298E00DD9E86 /* PhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		43145A731E8B1E1C009D5260 /* PhotObamaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotObamaUITests.swift; sourceTree = "<group>"; };
 		43145A751E8B1E1C009D5260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43145A811E8B1E54009D5260 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		43145A831E8B2293009D5260 /* PhotoAPIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoAPIs.swift; sourceTree = "<group>"; };
+		43145A851E8B2C17009D5260 /* PhotoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
+		43239AA71EAEB6A000312ACA /* Photo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		43239AA81EAEB6A000312ACA /* Photo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4334D7BD1EAEA788000DDEC6 /* PhotObama.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotObama.xcdatamodel; sourceTree = "<group>"; };
+		4346E89E1EA54A0D008ED642 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		4346E8A01EA6BF7E008ED642 /* PhotoInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoInfoViewController.swift; sourceTree = "<group>"; };
+		436B836D1E9C25BC00DD9E86 /* PhotoDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
+		436B836F1E9C298E00DD9E86 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,9 @@
 		43145A471E8B1E1C009D5260 = {
 			isa = PBXGroup;
 			children = (
+				43239AA71EAEB6A000312ACA /* Photo+CoreDataClass.swift */,
+				43239AA81EAEB6A000312ACA /* Photo+CoreDataProperties.swift */,
+				4334D7BC1EAEA788000DDEC6 /* PhotObama.xcdatamodeld */,
 				43145A521E8B1E1C009D5260 /* PhotObama */,
 				43145A671E8B1E1C009D5260 /* PhotObamaTests */,
 				43145A721E8B1E1C009D5260 /* PhotObamaUITests */,
@@ -97,9 +118,15 @@
 		43145A521E8B1E1C009D5260 /* PhotObama */ = {
 			isa = PBXGroup;
 			children = (
+				4346E8A01EA6BF7E008ED642 /* PhotoInfoViewController.swift */,
+				4346E89E1EA54A0D008ED642 /* ImageStore.swift */,
+				436B836F1E9C298E00DD9E86 /* PhotoCollectionViewCell.swift */,
+				436B836D1E9C25BC00DD9E86 /* PhotoDataSource.swift */,
 				43145A531E8B1E1C009D5260 /* AppDelegate.swift */,
 				43145A811E8B1E54009D5260 /* PhotosViewController.swift */,
 				43145A571E8B1E1C009D5260 /* Main.storyboard */,
+				43145A831E8B2293009D5260 /* PhotoAPIs.swift */,
+				43145A851E8B2C17009D5260 /* PhotoStore.swift */,
 				43145A5A1E8B1E1C009D5260 /* Assets.xcassets */,
 				43145A5C1E8B1E1C009D5260 /* LaunchScreen.storyboard */,
 				43145A5F1E8B1E1C009D5260 /* Info.plist */,
@@ -259,8 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43239AA91EAEB6A000312ACA /* Photo+CoreDataClass.swift in Sources */,
+				43145A841E8B2293009D5260 /* PhotoAPIs.swift in Sources */,
 				43145A821E8B1E54009D5260 /* PhotosViewController.swift in Sources */,
+				43145A861E8B2C17009D5260 /* PhotoStore.swift in Sources */,
+				4346E89F1EA54A0D008ED642 /* ImageStore.swift in Sources */,
+				43239AAA1EAEB6A000312ACA /* Photo+CoreDataProperties.swift in Sources */,
+				436B836E1E9C25BC00DD9E86 /* PhotoDataSource.swift in Sources */,
+				436B83701E9C298E00DD9E86 /* PhotoCollectionViewCell.swift in Sources */,
 				43145A541E8B1E1C009D5260 /* AppDelegate.swift in Sources */,
+				4346E8A11EA6BF7E008ED642 /* PhotoInfoViewController.swift in Sources */,
+				4334D7BE1EAEA788000DDEC6 /* PhotObama.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotObama/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lindsay.206466849.PhotObama;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotObama/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lindsay.206466849.PhotObama;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +543,7 @@
 				43145A7A1E8B1E1D009D5260 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43145A7B1E8B1E1D009D5260 /* Build configuration list for PBXNativeTarget "PhotObamaTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +552,7 @@
 				43145A7D1E8B1E1D009D5260 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43145A7E1E8B1E1D009D5260 /* Build configuration list for PBXNativeTarget "PhotObamaUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,8 +561,23 @@
 				43145A801E8B1E1D009D5260 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4334D7BC1EAEA788000DDEC6 /* PhotObama.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4334D7BD1EAEA788000DDEC6 /* PhotObama.xcdatamodel */,
+			);
+			currentVersion = 4334D7BD1EAEA788000DDEC6 /* PhotObama.xcdatamodel */;
+			name = PhotObama.xcdatamodeld;
+			path = PhotObama/PhotObama.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 43145A481E8B1E1C009D5260 /* Project object */;
 }
